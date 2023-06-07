@@ -29,6 +29,5 @@ int _sqr_recursion(int n)
 	if (n < 0)
 		return (-1);
 
-	return (sqr__root(n, 0));
+	return (sqr_root(n, 0));
 }
-/**
