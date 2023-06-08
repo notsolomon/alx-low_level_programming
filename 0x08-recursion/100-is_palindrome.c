@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cp - comapres head and tail of match indices
+ * cmp - comapres head and tail of match indices
  * @head: index starting from the left
  * @tail: index starting from the right
  *
@@ -44,5 +44,6 @@ int _strlen(char *s)
 int is_palindrome(char *s)
 {
 	int length = _strlen(s);
+
 	return (cmp(s, (s + length - 1)));
 }
