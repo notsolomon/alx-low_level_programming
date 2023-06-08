@@ -24,7 +24,7 @@ int sqr_root(int n, int root)
  * Return: sqr root of n
  */
 
-int _sqr_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
