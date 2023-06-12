@@ -32,11 +32,11 @@ char *_strdup(char *str)
 	}
 
 	i = 0;
-	
+
 	while (i < length)
 	{
-																*(dplc_str + i) = *(str + i);
-																i++;
+		*(dplc_str + i) = *(str + i);
+		i++;
 	}
 
 	return (dplc_str);
