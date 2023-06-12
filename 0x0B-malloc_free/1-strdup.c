@@ -27,9 +27,12 @@ char *_strdup(char *str)
 	dplc_str = malloc(sizeof(char) * length);
 
 	if (dplc_str == NULL)
+	{
 		return (NULL);
+	}
 
 	i = 0;
+	
 	while (i < length)
 	{
 																*(dplc_str + i) = *(str + i);
