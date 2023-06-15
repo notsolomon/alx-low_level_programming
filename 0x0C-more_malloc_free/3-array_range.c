@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * array_range - create array of integers
+ * *array_range - create array of integers
  * @min: start range from
  * @max: end range at
  *
@@ -25,7 +25,7 @@ int *array_range(int min, int max)
 	if (ptr == NULL)
 		return (NULL);
 
-	for (i = 0l i < n; i++)
+	for (i = 0; i < n; i++)
 		ptr(i) = min++;
 
 	return (ptr);
