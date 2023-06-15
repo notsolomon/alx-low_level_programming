@@ -19,7 +19,7 @@ int _strlen(char *string)
 }
 
 /**
- * string_nconcat - concatenates 2 strings
+ * *string_nconcat - concatenates 2 strings
  * @s1: str 1
  * @s2: str 2
  * @n: int
