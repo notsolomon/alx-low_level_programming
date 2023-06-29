@@ -1,3 +1,6 @@
+#ifndef ALX
+#define ALX
+
 /**
  * _putchar - prints charachter to stdout
  * _is lower - checks if characte ris lowercase
@@ -41,3 +44,5 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+
+#endif
