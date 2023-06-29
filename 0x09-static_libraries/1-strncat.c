@@ -9,7 +9,7 @@
  * Return: pointer to the resulting string dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, const char *src, long unsigned int n)
 {
 	int i = 0;
 	int j = 0;

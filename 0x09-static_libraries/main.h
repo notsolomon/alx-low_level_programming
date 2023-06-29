@@ -32,7 +32,7 @@ void _puts(char *s);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
-char *strncat(char *dest, char *src, int n);
+char *strncat(char *dest, const char *src, long unsigned int n);
 char *strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 char *_memset(char *s, char b, unsigned int n);
